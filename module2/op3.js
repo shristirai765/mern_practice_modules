@@ -2,7 +2,7 @@
 //? sum of any two sides is greater than third side
 
 const validationCheck = (a,b,c)=>{
-    if((a+b>c) && (b+c>a) && (a+c>b)){
+    if((a+b>c) && (b+c>a) && (a+b>b)){
         console.log("true (Valid)");
     }
     else
