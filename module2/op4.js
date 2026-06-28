@@ -8,7 +8,7 @@ const triangle = (a,b,c)=>{
         else if (a === b || b === c || a === c){
             console.log("Isosceles triangle");
         }
-        else if(a ===! b && a ===! c && b ===! c){
+        else if(a !== b && a !== c && b !== c){
             console.log("Scalene triangle");
         }
     }
